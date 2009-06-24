@@ -1,0 +1,4 @@
+package/deb/canonicalize-package: warning: adjusting nonconforming package 'fla~:ss' -> 'fla..ss'
+ ****** following errors are expected ****** 
+package/deb/canonicalize-package: fatal: package 'f' needs to be at least length 2.
+package/deb/canonicalize-package: fatal: package '+f' does not start with an alphanumeric character.

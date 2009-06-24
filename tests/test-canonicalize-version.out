@@ -1,0 +1,8 @@
+package/deb/canonicalize: warning: adjusting nonconforming upstream_version '1flass:turg' of version '1flass:turg' to '1flass.turg'
+package/deb/canonicalize: warning: adjusting nonconforming upstream_version '1flass:turg-*xx' of version '1flass:turg-*xx' to '1flass.turg..xx'
+package/deb/canonicalize: warning: adjusting nonconforming upstream_version '1flass:turg' of version '1flass:turg-xxx' to '1flass.turg'
+package/deb/canonicalize: warning: adjusting nonconforming upstream_version '1flass:turg-*xx' of version '0:1flass:turg-*xx' to '1flass:turg..xx'
+package/deb/canonicalize: warning: adjusting nonconforming upstream_version '1flass*' of version '1flass*' to '1flass.'
+ ****** following errors are expected ****** 
+package/deb/canonicalize: warning: adjusting nonconforming upstream_version 'flass:turg' of version 'flass:turg' to 'flass.turg'
+package/deb/canonicalize-version: fatal: upstream_version component 'flass.turg' of 'flass:turg' needs to start with a digit.
