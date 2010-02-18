@@ -64,7 +64,7 @@ $description
 Changes:
 $changes
 Files:
- $md5 $size - - ${package}_${version}_${arch}.deb
+ $md5 $size universe low ${package}_${version}_${arch}.deb
 EOD
 
     buildchangesfile="${outdir}/${package}-build_${version}_${buildarch}.changes"
@@ -77,13 +77,12 @@ Format: 1.5
 Date: $date
 Architecture: $buildarch
 Version: $version
-Distribution: -
+Distribution: karmic
 Maintainer: $FW_PACKAGE_MAINTAINER
-Changed-By: $who <$who@$where>
 Description: Build environment for $package $version.
 Changes:
 Files:
- $buildmd5 $buildsize - - ${package}-build_${version}_${buildarch}.deb
+ $buildmd5 $buildsize universe low ${package}-build_${version}_${buildarch}.deb
 EOD
   }
 
