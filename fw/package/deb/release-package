@@ -54,11 +54,11 @@ make_control_files () \
 Format: 1.5
 Date: $date
 Source: ${package}
+Binary: ${package}
 Architecture: $arch
 Version: $version
-Distribution: -
+Distribution: karmic
 Maintainer: $FW_PACKAGE_MAINTAINER
-Changed-By: $who <$who@$where>
 Description: $FW_PACKAGE_SHORT_DESCRIPTION
 $description
 Changes:
