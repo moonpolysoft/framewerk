@@ -1,3 +1,6 @@
+Version 0.1.32:
+  * fix changes file
+
 Version 0.1.31:
   * fix debian generation to work with fink
 
