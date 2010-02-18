@@ -53,6 +53,7 @@ make_control_files () \
     cat <<EOD > "$changesfile"
 Format: 1.5
 Date: $date
+Source: ${package}
 Architecture: $arch
 Version: $version
 Distribution: -
