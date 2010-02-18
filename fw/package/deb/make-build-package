@@ -41,6 +41,8 @@ make_control_files () \
 Package: ${package}-build
 Version: $version
 Architecture: $arch
+Section: universe
+Priority: low
 Maintainer: $FW_PACKAGE_MAINTAINER
 Description: Build environment for $package $version.
  This package contains the build environment for $package $version.
