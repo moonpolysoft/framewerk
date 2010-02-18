@@ -81,6 +81,8 @@ make_control_files () \
 Package: $package
 Version: $version
 Architecture: $arch
+Section: universe
+Priority: low
 Maintainer: $FW_PACKAGE_MAINTAINER
 Description: $FW_PACKAGE_SHORT_DESCRIPTION
 EOD
